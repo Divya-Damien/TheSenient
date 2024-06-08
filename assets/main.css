@@ -30,8 +30,8 @@ nav.navbar {
 	color: #ffffff;
 }
 
-.about-me .image-overlay img {
-	width: 60%;
+.about-me img {
+	width: 100%;
 	min-width: 150px;
 }
 
@@ -44,6 +44,9 @@ nav.navbar {
 @media screen and (max-width: 768px) {
 	.about-me .image-container {
 		text-align: center;
+	}
+	.padding-adjust {
+		padding: 0;
 	}
 }
 

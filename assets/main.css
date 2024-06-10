@@ -19,8 +19,12 @@ nav.navbar {
 }
 
 /* Intro */
+.image-overlay {
+	/* text-align: end; */
+}
+
 .image-overlay img {
-	width: 60%;
+	width: 95%;
 	min-width: 175px;
 }
 
@@ -41,12 +45,41 @@ nav.navbar {
 	color: #4f5a4f;
 }
 
+.services ul li {
+	padding: 10px 0;
+	font-weight: 500;
+}
+
+/* Contact us */
+.contact-us .form-group {
+	margin: 30px 0;
+}
+.contact-us label {
+	margin-bottom: 10px;
+}
+.contact-us .form-control {
+	border-radius: 0;
+}
+.contact-us .form-control:focus {
+	box-shadow: none;
+}
+.contact-us .btn {
+	background-color: #d4967d;
+	color: #ffffff;
+	padding: 8px 16px;
+	width: 100px;
+	border-radius: 24px;
+}
+
 @media screen and (max-width: 768px) {
 	.about-me .image-container {
 		text-align: center;
 	}
 	.padding-adjust {
 		padding: 0;
+	}
+	.image-overlay img {
+		width: 60%;
 	}
 }
 

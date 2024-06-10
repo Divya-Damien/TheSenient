@@ -14,8 +14,8 @@
 		<div id="wrapper">
 			<!-- Header -->
 			<nav class="navbar navbar-expand-lg">
-				<div class="container-fluid">
-					<a class="navbar-brand" href="#"><h1>THE SENTIENT</h1> </a>
+				<div class="container-fluid mt-2">
+					<a class="navbar-brand" href="#"><h1 class="m-0">THE SENTIENT</h1> </a>
 					<button
 						class="navbar-toggler"
 						type="button"
@@ -30,18 +30,19 @@
 					<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 						<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 							<li class="nav-item">
-								<a class="nav-link active" aria-current="page" href="#"
+								<a class="nav-link" aria-current="page" href="#about"
 									>About Me</a
 								>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">How I Work</a>
+								<a class="nav-link" href="#services">How I Work</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Contact Us</a>
+								<a class="nav-link" href="#contact">Contact Us</a>
 							</li>
 							<li class="nav-item">
-								<button class="btn" type="submit">Book Appointment</button>
+								<a href="https://headway.co/providers/andrea-rodriguez-2?utm_sourc=pem&utm_medium=direct_link&&utm_campaign=55450" 
+								class="btn" role="button" target="_blank">Book Appointment</a>
 							</li>
 						</ul>
 						<!-- <ul class="navbar-nav ms-auto">
@@ -59,13 +60,13 @@
 							<h1 class="main-title mb-4">Identity-Focused Therapy</h1>
 						</div>
 						<div
-							class="col-lg-4 col-md-3 col-sm-12 order-1 order-md-2 text-center"
+							class="col-lg-2 col-md-3 col-sm-12 order-1 order-md-2 text-center"
 						>
-							<div class="image-overlay">
-								<img src="../Custom/images/Andrea.jpeg" alt="photo" />
+							<div class="image-overlay text-lg-end">
+								<img src="./images/About_img.jpg" alt="photo" />
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-9 col-sm-12 order-2 order-md-1">
+						<div class="col-lg-6 col-md-9 col-sm-12 order-2 order-md-1">
 							<h1 class="main-title d-none d-sm-none d-md-block">
 								Identity-Focused Therapy
 							</h1>
@@ -87,20 +88,20 @@
 					</div>
 
 					<!-- About Me -->
-					<div
+					<div id="about"
 						class="row mt-5 align-items-center about-me justify-content-center pb-4"
 					>
 					<div class="row justify-content-md-center">
 						<div class="col-lg-2 col-md-3 col-sm-12">
 						</div>
 							<div class="col-lg-6 col-md-9 col-sm-12 text-center">
-								<h1 class="main-title m-4">Hello, I'm Andrea</h1>
+								<h1 class="main-title m-4 m-lg-5">Hello, I'm Andrea</h1>
 							</div>
 					</div>
 						<div class="row justify-content-md-center">
 							<div class="col-lg-2 col-md-3 col-sm-12 image-container padding-adjust">
 								<div class="image-overlay">
-									<img src="../Custom/images/Andrea.jpeg" alt="photo" />
+									<img src="./images/Andrea.jpeg" alt="photo" />
 									<div class="text-center">
 										<i>Andrea Rodriguez, Licensed Mental Health Counselor</i>
 									</div>
@@ -129,11 +130,11 @@
 					</div>
 
 					<!-- Services -->
-					<div
-						class="row pt-3 pt-lg-4 align-items-center services justify-content-md-center"
+					<div id="services"
+						class="row align-items-center services justify-content-md-center"
 					>
 						<div class="col-12 text-center">
-							<h1 class="main-title">How I Work</h1>
+							<h1 class="main-title mt-4 mt-lg-5">How I Work</h1>
 						</div>
 						<div class="col-lg-8">
 							<div class="mt-2 mt-lg-4">
@@ -151,10 +152,67 @@
 									issues of the past so you can move in the direction you want
 									to go in life.
 								</p>
+
+								<h4 class="mt-4 mt-lg-5">Modalities</h4>
+								<ul>
+									<li>Transpersonal</li>
+									<li>Cognitive Behavioral (CBT)</li>
+									<li>Acceptance & Commitment (ACT)</li>
+									<li>Mindfulness-Based (MBCT)</li>
+									<li>Solution Focused Brief (SFBT)</li>
+								</ul>
 							</div>
 						</div>
 					</div>
-				</div>
+
+					<!-- Contact Us -->
+					<div id="contact" class="row pt-4 pt-lg-5 justify-content-md-center contact-us">
+						<div class="d-block d-sm-block d-md-none text-center">
+							<h1 class="main-title mb-4">Identity-Focused Therapy</h1>
+						</div>
+						<div
+							class="col-lg-4 col-md-3 col-sm-12 order-2 order-md-1"
+						>
+							<div class="image-overlay">
+								<img src="./images/contact-us-image.jpg" alt="contact-us" />
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-9 col-sm-12 order-1 order-md-2">
+							<h1 class="main-title d-none d-sm-none d-md-block">
+								Contact Us
+							</h1>
+							<div class="mt-4 mt-lg-5">
+								<p>
+									Currently I am available for online therapy via a 
+									HIPPA-compliant platform.
+								</p>
+								<p>
+									Email me at rodriguezpsychotherapist@gmail.com, or
+									click to book an appointment, or fill out the form below. 
+									I try to respond to all messages within 24-48 hours. 
+								</p>
+								<form>
+									<div class="form-group">
+										<label for="name">Name</label>
+										<input type="name" class="form-control" id="name" placeholder="Name">
+									</div>
+									<div class="form-group">
+										<label for="email">Email</label>
+										<input type="email" class="form-control" id="email" placeholder="Email">
+									</div>
+									<div class="form-group">
+										<label for="phone">Phone</label>
+										<input type="phone" class="form-control" id="phone" placeholder="Phone">
+									</div>
+									<div class="form-group">
+										<label for="message">Message</label>
+										<textarea class="form-control" id="message" rows="5"></textarea>
+									</div>
+									<button class="btn" type="submit">Submit</button>
+								</form>
+							</div>
+						</div>
+					</div>
 			</div>
 		</div>
 		<script

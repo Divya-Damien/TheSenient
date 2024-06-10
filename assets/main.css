@@ -1,3 +1,15 @@
+/* Logo */
+@font-face {
+	font-family: logoFont;
+	src: url("../fonts/Sansation_Bold-webfont.woff");
+}
+
+.logo {
+	font-family: logoFont;
+	color: #d4967d;
+	line-height: 12px;
+}
+
 /* Nav */
 .nav-item {
 	padding: 10px;
@@ -19,9 +31,6 @@ nav.navbar {
 }
 
 /* Intro */
-.image-overlay {
-	/* text-align: end; */
-}
 
 .image-overlay img {
 	width: 95%;
@@ -62,6 +71,7 @@ nav.navbar {
 }
 .contact-us .form-control:focus {
 	box-shadow: none;
+
 }
 .contact-us .btn {
 	background-color: #d4967d;

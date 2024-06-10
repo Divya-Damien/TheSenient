@@ -65,7 +65,7 @@ button.navbar-toggler {
 
 /* Contact us */
 .contact-us .form-group {
-	margin: 30px 0;
+	margin: 10px 0;
 }
 .contact-us label {
 	margin-bottom: 10px;
@@ -84,6 +84,12 @@ button.navbar-toggler {
 	width: 100px;
 	border-radius: 24px;
 }
+.contact-us .contact-image {
+	background-image: url("../images/contact-img.jpg");
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
 
 /* Footer */
 
@@ -92,7 +98,7 @@ button.navbar-toggler {
 	color: #ffffff;
 }
 .footer .bi{
-	margin: 2px 8px 4px 8px;
+	margin: 2px 4px;
 	font-size: 1.5rem;
 }
 

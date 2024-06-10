@@ -8,6 +8,7 @@
 	font-family: logoFont;
 	color: #d4967d;
 	line-height: 12px;
+	padding-left: 8px;
 }
 
 /* Nav */
@@ -30,6 +31,9 @@ nav.navbar {
 	box-shadow: 0px 7px 18px 0px rgba(181, 181, 181, 1);
 }
 
+button.navbar-toggler {
+	margin-top: -5px;
+}
 /* Intro */
 
 .image-overlay img {

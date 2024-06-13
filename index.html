@@ -9,55 +9,64 @@
 			rel="stylesheet"
 		/>
 		<!-- Bootstrap Icons -->
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+			rel="stylesheet"
+		/>
 		<link href="assets/main.css" rel="stylesheet" />
 	</head>
-	<body>
-		<div id="wrapper">
-			<!-- Header -->
-			<nav class="navbar navbar-expand-lg">
-				<div class="container-fluid mt-2">
-					<a class="navbar-brand" href="#"><h1 class="logo m-0">THE SENTIENT</h1> </a>
-					<button
-						class="navbar-toggler"
-						type="button"
-						data-bs-toggle="collapse"
-						data-bs-target="#navbarTogglerDemo02"
-						aria-controls="navbarTogglerDemo02"
-						aria-expanded="false"
-						aria-label="Toggle navigation"
-					>
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-						<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-							<li class="nav-item">
-								<a class="nav-link" aria-current="page" href="#about"
-									>About Me</a
-								>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#services">How I Work</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#contact">Contact Us</a>
-							</li>
-							<li class="nav-item">
-								<a href="https://headway.co/providers/andrea-rodriguez-2?utm_sourc=pem&utm_medium=direct_link&&utm_campaign=55450" 
-								class="btn" role="button" target="_blank">Book Appointment</a>
-							</li>
-						</ul>
-						<!-- <ul class="navbar-nav ms-auto">
-                        <button class="btn btn-outline-success" type="submit">Book Appointment</button>
-                    </ul> -->
-					</div>
+	<body
+		data-bs-spy="scroll"
+		data-bs-target="#sticky-navbar"
+		data-bs-offset="0"
+		class="position-relative"
+	>
+		<!-- Header -->
+		<nav id="sticky-navbar" class="navbar navbar-expand-lg sticky-top">
+			<div class="container-fluid mt-2">
+				<a class="navbar-brand" href="#"
+					><h1 class="logo m-0">THE SENTIENT</h1></a
+				>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarTogglerDemo02"
+					aria-controls="navbarTogglerDemo02"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="#about">About Me</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#services">How I Work</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact Us</a>
+						</li>
+						<li class="nav-item">
+							<a
+								href="https://headway.co/providers/andrea-rodriguez-2?utm_sourc=pem&utm_medium=direct_link&&utm_campaign=55450"
+								class="btn"
+								role="button"
+								target="_blank"
+								>Book Appointment</a
+							>
+						</li>
+					</ul>
 				</div>
-			</nav>
-
+			</div>
+		</nav>
+		<div id="wrapper" class="position-relative">
 			<!-- Main -->
-			<div id="main">
-				<div class="container-fluid mt-5">
-					<div class="row align-items-center justify-content-md-center">
+			<div id="main" class="position-relative">
+				<div class="container-fluid mt-5 position-relative">
+					<div class="row section align-items-center justify-content-md-center">
 						<div class="d-block d-sm-block d-md-none text-center">
 							<h1 class="main-title mb-4">Identity-Focused Therapy</h1>
 						</div>
@@ -65,7 +74,7 @@
 							class="col-lg-2 col-md-3 col-sm-12 order-1 order-md-2 text-center"
 						>
 							<div class="image-overlay text-lg-end">
-								<img src="./images/About_img.jpg" alt="photo" />
+								<img src="./images/Andrea.jpeg" alt="photo" />
 							</div>
 						</div>
 						<div class="col-lg-6 col-md-9 col-sm-12 order-2 order-md-1">
@@ -90,18 +99,20 @@
 					</div>
 
 					<!-- About Me -->
-					<div id="about"
-						class="row mt-5 align-items-center about-me justify-content-center pb-4"
+					<div
+						id="about"
+						class="section row mt-5 align-items-center about-me justify-content-center pb-4"
 					>
-					<div class="row justify-content-md-center">
-						<div class="col-lg-2 col-md-3 col-sm-12">
-						</div>
+						<div class="row justify-content-md-center">
+							<div class="col-lg-2 col-md-3 col-sm-12"></div>
 							<div class="col-lg-6 col-md-9 col-sm-12 text-center">
 								<h1 class="main-title m-4 m-lg-5">Hello, I'm Andrea</h1>
 							</div>
-					</div>
+						</div>
 						<div class="row justify-content-md-center">
-							<div class="col-lg-2 col-md-3 col-sm-12 image-container padding-adjust">
+							<div
+								class="col-lg-2 col-md-3 col-sm-12 image-container padding-adjust"
+							>
 								<div class="image-overlay">
 									<img src="./images/Andrea.jpeg" alt="photo" />
 									<div class="text-center">
@@ -110,21 +121,19 @@
 								</div>
 							</div>
 							<div class="col-lg-6 col-md-9 col-sm-12 padding-adjust">
-								<!-- <h1 class="main-title m-4 d-none d-sm-none d-md-block">
-									Hello, I'm Andrea
-								</h1> -->
-								<div class="mt-4 mt-md-0  ps-md-5">
+								<div class="mt-4 mt-md-0 ps-md-5">
 									<p>
 										I am Andrea Rodriguez, a licensed Mental Health Counselor in
-										Florida. I completed a Bachelor of of Science in Psychology
-										and a Master of Science in Psychology with a major in
-										Mental Health Counseling from CAU. Currently, I am a Doctoral
-										student working toward attaining my Ph.D. in Clinical Sexology
-										from IICS. I have been officially counseling individuals since
-										2019, but if you ask my friends/family they will tell you I have
-										been an unpaid therapist for much longer! I particularly enjoy
-										working with those who struggle with relationship/intimacy
-										issues, attachment difficulties and anxiety.
+										Florida. I completed a Bachelor of Science in Psychology and
+										a Master of Science in Psychology with a major in Mental
+										Health Counseling from CAU. Currently, I am a Doctoral
+										student working toward attaining my Ph.D. in Clinical
+										Sexology from IICS. I have been officially counseling
+										individuals since 2019, but if you ask my friends/family
+										they will tell you I have been an unpaid therapist for much
+										longer! I particularly enjoy working with those who struggle
+										with relationship/intimacy issues, attachment difficulties,
+										and anxiety.
 									</p>
 								</div>
 							</div>
@@ -132,8 +141,9 @@
 					</div>
 
 					<!-- Services -->
-					<div id="services"
-						class="row align-items-center services justify-content-md-center"
+					<div
+						id="services"
+						class="section row align-items-center services justify-content-md-center"
 					>
 						<div class="col-12 text-center">
 							<h1 class="main-title mt-4 mt-lg-5">How I Work</h1>
@@ -142,17 +152,17 @@
 							<div class="mt-2 mt-lg-4">
 								<p>
 									I specialize in working with individuals and couples who
-									struggle with relationship issues, attachment difficulties and
-									anxiety. I utilized evidence-based approaches such as cognitive
-									behavioral therapy, clinical hypnosis and solution-focused
-									strategies. 
+									struggle with relationship issues, attachment difficulties,
+									and anxiety. I utilized evidence-based approaches such as
+									cognitive behavioral therapy, clinical hypnosis, and
+									solution-focused strategies.
 								</p>
 								<p>
-									My approach is curious, empathetic, down-to-earth
-									and direct. I will give you specific strategies to overcome
-									the symptoms you are experiencing now that organically resolve
-									issues of the past so you can move in the direction you want
-									to go in life.
+									My approach is curious, empathetic, down-to-earth, and direct.
+									I will give you specific strategies to overcome the symptoms
+									you are experiencing now that organically resolve issues of
+									the past so you can move in the direction you want to go in
+									life.
 								</p>
 
 								<h4 class="mt-4 mt-lg-5">Modalities</h4>
@@ -168,47 +178,65 @@
 					</div>
 
 					<!-- Contact Us -->
-					<div id="contact" class="row pt-4 pt-lg-5 pb-4 justify-content-md-center contact-us">
+					<div
+						id="contact"
+						class="section row pt-4 pt-lg-5 pb-4 justify-content-md-center contact-us"
+					>
 						<div class="d-block d-sm-block d-md-none text-center">
 							<h1 class="main-title mb-4">Contact Us</h1>
 						</div>
 						<div
 							class="col-lg-4 col-md-3 col-sm-12 d-none d-lg-block order-md-1"
 						>
-							<div class="contact-image">
-								<!-- <img src="./images/contact-img.jpg" alt="contact-us" /> -->
-							</div>
+							<div class="contact-image"></div>
 						</div>
-						<div class="col-lg-4 col-md-9 col-sm-12 order-1 order-md-2 ps-md-5">
-							<h1 class="main-title d-none d-sm-none d-md-block">
-								Contact Us
-							</h1>
+						<div class="col-lg-4 col-md-12 order-1 order-md-2 ps-lg-5">
+							<h1 class="main-title d-none d-sm-none d-md-block">Contact Us</h1>
 							<div class="mt-4 mt-lg-5">
 								<p>
-									Currently I am available for online therapy via a 
+									Currently I am available for online therapy via a
 									HIPPA-compliant platform.
 								</p>
 								<p>
-									Email me at rodriguezpsychotherapist@gmail.com, or
-									click to book an appointment, or fill out the form below. 
-									I try to respond to all messages within 24-48 hours. 
+									Email me at rodriguezpsychotherapist@gmail.com, or click to
+									book an appointment, or fill out the form below. I try to
+									respond to all messages within 24-48 hours.
 								</p>
 								<form>
 									<div class="form-group">
 										<label for="name">Name</label>
-										<input type="name" class="form-control" id="name" placeholder="Name">
+										<input
+											type="name"
+											class="form-control"
+											id="name"
+											placeholder="Name"
+										/>
 									</div>
 									<div class="form-group">
 										<label for="email">Email</label>
-										<input type="email" class="form-control" id="email" placeholder="Email">
+										<input
+											type="email"
+											class="form-control"
+											id="email"
+											placeholder="Email"
+										/>
 									</div>
 									<div class="form-group">
 										<label for="phone">Phone</label>
-										<input type="phone" class="form-control" id="phone" placeholder="Phone">
+										<input
+											type="phone"
+											class="form-control"
+											id="phone"
+											placeholder="Phone"
+										/>
 									</div>
 									<div class="form-group">
 										<label for="message">Message</label>
-										<textarea class="form-control" id="message" rows="5"></textarea>
+										<textarea
+											class="form-control"
+											id="message"
+											rows="5"
+										></textarea>
 									</div>
 									<button class="btn" type="submit">Submit</button>
 								</form>
@@ -217,29 +245,33 @@
 					</div>
 
 					<!-- Footer -->
-					<div
-					class="row footer p-1 align-items-center"
-				>
-					<!-- <div class="col-12 text-center">
-						<h3 class="mt-4">The Sentient</h3>
-					</div>
-					<div class="col-12 text-center">
-						<p class=" ">rodriguezpsychotherapist@gmail.com</p>
-					</div> -->
-					<div class="col-12 col-md-6 col-lg-6 mt-2 mb-2 m-md-0">
-							<!-- <p class="mb-0"><b>FOLLOW ME</b></p> -->
+					<div class="row footer p-1 align-items-center">
+						<div class="col-12 col-md-6 col-lg-6 mt-2 mb-2 m-md-0">
 							©2024 The Sentient. All Rights Reserved
 						</div>
 						<div class="col-12 col-md-6 col-lg-6 text-end mt-2 mb-2 m-md-0">
 							<div>
-								<i class="bi bi-facebook "></i>
-								<i class="bi bi-twitter-x "></i>
-								<i class="bi bi-linkedin "></i>
-								<i class="bi bi-instagram "></i>
+								<a
+									href="https://www.facebook.com/share/CYbsHWTbomTWUA5x/?mibextid=kFxxJD"
+									target="_blank"
+									><i class="bi bi-facebook"></i
+								></a>
+								<a href="https://x.com/andrearodr27855?s=11" target="_blank"
+									><i class="bi bi-twitter-x"></i
+								></a>
+								<a
+									href="https://www.linkedin.com/in/andrea-rodriguez-b83a2b263"
+									target="_blank"
+									><i class="bi bi-linkedin"></i
+								></a>
+								<a
+									href="https://www.instagram.com/the.sentient.therapist?igsh=MW54emFiamdiaWtobw=="
+									target="_blank"
+									><i class="bi bi-instagram"></i
+								></a>
 							</div>
 						</div>
 					</div>
-					
 				</div>
 			</div>
 		</div>
@@ -253,5 +285,24 @@
 			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 			crossorigin="anonymous"
 		></script>
+
+		<script>
+			document.addEventListener("DOMContentLoaded", function () {
+				const navbarHeight = document.querySelector(".navbar").offsetHeight;
+				const links = document.querySelectorAll(".nav-link");
+				links.forEach((link) => {
+					link.addEventListener("click", function (event) {
+						event.preventDefault();
+						const targetId = link.getAttribute("href").substring(1);
+						const targetElement = document.getElementById(targetId);
+						const targetPosition = targetElement.offsetTop + navbarHeight + 2;
+						window.scrollTo({
+							top: targetPosition,
+							behavior: "smooth",
+						});
+					});
+				});
+			});
+		</script>
 	</body>
 </html>

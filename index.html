@@ -237,7 +237,7 @@
 										<textarea
 											class="form-control"
 											id="message"
-											rows="5"
+											rows="4"
 										></textarea>
 									</div>
 									<!-- Recaptcha -->
@@ -248,7 +248,7 @@
 										data-expired-callback="onRecaptchaResponseExpiry"
 										data-error-callback="onRecaptchaError"
 									></div>
-									<button class="btn" type="submit">Submit</button>
+									<button class="btn mt-2" type="submit">Submit</button>
 								</form>
 							</div>
 						</div>
@@ -305,7 +305,7 @@
 						event.preventDefault();
 						const targetId = link.getAttribute("href").substring(1);
 						const targetElement = document.getElementById(targetId);
-						const targetPosition = targetElement.offsetTop + navbarHeight + 2;
+						const targetPosition = targetElement.offsetTop + navbarHeight + 5;
 						window.scrollTo({
 							top: targetPosition,
 							behavior: "smooth",

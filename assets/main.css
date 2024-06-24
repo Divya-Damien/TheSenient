@@ -18,7 +18,7 @@ body {
 }
 
 .logo {
-	font-family: logoFont;
+	/* font-family: logoFont; */
 	color: #d4967d;
 	line-height: 12px;
 	padding-left: 8px;
